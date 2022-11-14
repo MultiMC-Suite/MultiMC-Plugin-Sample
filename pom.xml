@@ -15,9 +15,9 @@
             <url>https://repo.papermc.io/repository/maven-public/</url>
         </repository>
         <repository>
-            <id>multimclibs</id>
-            <name>MultiMCLibs</name>
-            <url>${basedir}/libs</url>
+            <id>github</id>
+            <name>MultiMC-API GitHub packages</name>
+            <url>https://maven.pkg.github.com/IUTRS-MultiMC-LAN/MultiMC-API</url>
         </repository>
     </repositories>
 
@@ -30,8 +30,8 @@
         </dependency>
         <dependency>
             <groupId>fr.multimc</groupId>
-            <artifactId>MultiMC-API</artifactId>
-            <version>1.0.0</version>
+            <artifactId>multimc-api</artifactId>
+            <version>1.8-snapshot</version>
         </dependency>
     </dependencies>
 
@@ -48,7 +48,7 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.2.0</version>
                 <configuration>
-                    <outputDirectory>Server/plugins</outputDirectory>
+                    <outputDirectory>server/plugins</outputDirectory>
                 </configuration>
             </plugin>
 
