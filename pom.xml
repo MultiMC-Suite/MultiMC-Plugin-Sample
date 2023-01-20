@@ -25,13 +25,13 @@
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>1.19.2-R0.1-SNAPSHOT</version>
+            <version>1.19.3-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>fr.multimc</groupId>
             <artifactId>multimc-api</artifactId>
-            <version>1.9-snapshot</version>
+            <version>1.10.0-snapshot</version>
         </dependency>
     </dependencies>
 
